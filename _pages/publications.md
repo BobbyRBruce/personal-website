@@ -76,6 +76,8 @@ projects, the debloated software ran successfully under new tests.
 
 **DOI**: [10.1109/TSE.2018.2827066](https://doi.org/10.1109/TSE.2018.2827066)
 
+[PDF Available Here](/assets/pdfs/publications/bruce-2019-approximate.pdf)
+
 ### Abstract
 
 Reducing the energy consumption of software systems though optimisations
