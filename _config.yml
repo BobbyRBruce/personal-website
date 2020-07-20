@@ -144,6 +144,10 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - load_website.sh # A script used to run the website locally
+  - build_website.sh # A script used to build the website for production
+  - screenshot.png
+  - screenshot-layouts.png
 keep_files:
   - .git
   - .svn
