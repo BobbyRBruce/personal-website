@@ -146,6 +146,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - load_website.sh # A script used to run the website locally
   - build_website.sh # A script used to build the website for production
+  - deploy_website.sh # A script used to build and deploy the website to AWS
   - screenshot.png
   - screenshot-layouts.png
 keep_files:
