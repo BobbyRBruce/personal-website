@@ -30,14 +30,14 @@ in Software Engineering.
 
 ### Education
 
-* **2009 -- 2014** Software Engineering (BEng), Edinburgh Napier University, UK
 * **2014 -- 2018** Software Engineering (PhD), University College London, UK
+* **2009 -- 2014** Software Engineering (BEng), Edinburgh Napier University, UK
 
 ### Employment
 
-* **2010 -- 2010** Software Engineer, Institute for Stem Cell Research, UK
-* **2011 -- 2012** Software Development Engineer, Microsoft Corp., Ireland
-* **2014 -- 2014** Research and Development Engineer, Synopsys Inc., UK
-* **2017 -- 2018** Lead Coding Tutor (part time), Richer Education, UK
-* **2018 -- 2019** Postdoctoral Scholar, UCLA, CA
 * **2019 -- [Present]** Postdoctoral Scholar, UC Davis, CA
+* **2018 -- 2019** Postdoctoral Scholar, UCLA, CA
+* **2017 -- 2018** Lead Coding Tutor (part time), Richer Education, UK
+* **2014 -- 2014** Research and Development Engineer, Synopsys Inc., UK
+* **2011 -- 2012** Software Development Engineer, Microsoft Corp., Ireland
+* **2010 -- 2010** Software Engineer, Institute for Stem Cell Research, UK
