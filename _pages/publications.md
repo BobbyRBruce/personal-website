@@ -98,6 +98,15 @@ produce an effect greater than their individual sum. Our results reveal that
 modifications are less effective than when applied individually. This
 highlights the need for more advanced search-based approaches.
 
+## **[Doctoral Thesis]** The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement
+
+**Authors**: Bobby R. Bruce
+
+**Published**: [UCL Discovery ePrint-10052290](
+https://discovery.ucl.ac.uk/id/eprint/10052290)
+
+[PDF Available here](/assets/pdfs/publications/thesis.pdf)
+
 ## Towards automatic generation and insertion of OpenACC directives
 
 **Authors**: Bobby R. Bruce, and Justyna Petke
