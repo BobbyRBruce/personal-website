@@ -11,4 +11,4 @@ To see read a short biography of me, please visit the [Biography](
 page.
 
 To view all my published (and some unpublished) works, please visit the
-[Publications](/papers.html) page.
+[Publications](/publications.html) page.
