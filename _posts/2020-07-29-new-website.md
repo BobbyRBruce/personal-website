@@ -1,7 +1,7 @@
 ---
 layout: single
 title: My new website!
-#tags: simple one word tags
+tags: website
 categories: misc
 date: 2020-07-19
 ---
