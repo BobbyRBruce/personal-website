@@ -4,6 +4,12 @@ title: Publications
 permalink: publications
 ---
 
+## Genetic Improvement @ ICSE 2020
+
+**Authors**: William B. Langdon, and others
+
+**Published**: [arXiv: 2007.15987](https://arxiv.org/abs/2007.15987)
+
 ## The gem5 Simulator: Version 20.0+
 
 **Authors**: Jason Lowe Power, and others
