@@ -21,17 +21,33 @@ permalink: publications
 **Authors**: Bobby R. Bruce, Tianyi Zhang, Jaspreet Arora, Guoqing Harry Xu,
 and Miryung Kim
 
-**Published**: FSE 2020 [To Appear]
+**Published**: ESEC/FSE 2020 [To Appear]
+
+**DOI**: [10.1145/3368089.3409738](https://doi.org/10.1145/3368089.3409738)
 
 **Arifact DOI**: [10.6084/m9.figshare.12435542](
 https://doi.org/10.6084/m9.figshare.12435542)
+
+## WebJShrink: A Web Service for Debloating Java Bytecode
+
+**Authors**: Konner Macias, Mihir Mathur, Bobby R. Bruce, Tianyi Zhang, and
+Miryung Kim
+
+**Published**: ESEC/FSE Demo Track 2020 [To Appear]
+
+**DOI**: [10.1145/3368089.3417934](https://doi.org/10.1145/3368089.3417934)
+
+**Artifact DOI**: [10.6084/m9.figshare.12518474](
+https://doi.org/10.6084/m9.figshare.12518474)
+
+**Video Demo**: <https://youtu.be/yzVzcd-MJ1w> 
 
 ## Approximate Oracles and Synergy in Software Energy Search Spaces
 
 **Authors**: Bobby R. Bruce, Justyna Petke, Mark Harman, and Earl T. Barr
 
 **Published**: IEEE Transactions on Software Engineering (2018)
-[FSE '2018 Journal First paper]
+[ESEC/FSE '2018 Journal First paper]
 
 **DOI**: [10.1109/TSE.2018.2827066](https://doi.org/10.1109/TSE.2018.2827066)
 
