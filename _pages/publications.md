@@ -28,6 +28,8 @@ and Miryung Kim
 **Arifact DOI**: [10.6084/m9.figshare.12435542](
 https://doi.org/10.6084/m9.figshare.12435542)
 
+[PDF Available Here](/assets/pdfs/publications/bruce-2020-jshrink.pdf)
+
 ## WebJShrink: A Web Service for Debloating Java Bytecode
 
 **Authors**: Konner Macias, Mihir Mathur, Bobby R. Bruce, Tianyi Zhang, and
