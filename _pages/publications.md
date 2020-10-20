@@ -42,7 +42,9 @@ Miryung Kim
 **Artifact DOI**: [10.6084/m9.figshare.12518474](
 https://doi.org/10.6084/m9.figshare.12518474)
 
-**Video Demo**: <https://youtu.be/yzVzcd-MJ1w> 
+**Video Demo**: <https://youtu.be/yzVzcd-MJ1w>
+
+[PDF Available Here](/assets/pdfs/publications/macias-2020-webjshrink.pdf)
 
 ## Approximate Oracles and Synergy in Software Energy Search Spaces
 
