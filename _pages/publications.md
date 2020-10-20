@@ -8,7 +8,11 @@ permalink: publications
 
 **Authors**: William B. Langdon, and others
 
-**Published**: [arXiv: 2007.15987](https://arxiv.org/abs/2007.15987)
+**Published**: SIGSOFT Software Engineering Notes (Volume 45, Number 4, 2020)
+
+**DOI** [10.1145/3417564.3417575](https://doi.org/10.1145/3417564.3417575)
+
+[PDF Available Here](/assets/pdfs/publications/langdon-2020-genetic.pdf)
 
 ## The gem5 Simulator: Version 20.0+
 
