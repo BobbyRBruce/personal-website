@@ -25,12 +25,17 @@ permalink: publications
 **Authors**: Bobby R. Bruce, Tianyi Zhang, Jaspreet Arora, Guoqing Harry Xu,
 and Miryung Kim
 
-**Published**: ESEC/FSE 2020 [To Appear]
+**Published**: ESEC/FSE 2020
 
 **DOI**: [10.1145/3368089.3409738](https://doi.org/10.1145/3368089.3409738)
 
 **Arifact DOI**: [10.6084/m9.figshare.12435542](
 https://doi.org/10.6084/m9.figshare.12435542)
+
+**Presentation slides**: [Keynote](/assets/keynote/jshrink-presentation.key),
+[PDF](/assets/pdfs/slides/jshrink-presentation.pdf)
+
+**Presentation Video**: <https://youtu.be/FDkFg-3pn4w>
 
 [PDF Available Here](/assets/pdfs/publications/bruce-2020-jshrink.pdf)
 
@@ -39,7 +44,7 @@ https://doi.org/10.6084/m9.figshare.12435542)
 **Authors**: Konner Macias, Mihir Mathur, Bobby R. Bruce, Tianyi Zhang, and
 Miryung Kim
 
-**Published**: ESEC/FSE Demo Track 2020 [To Appear]
+**Published**: ESEC/FSE Demo Track 2020
 
 **DOI**: [10.1145/3368089.3417934](https://doi.org/10.1145/3368089.3417934)
 
