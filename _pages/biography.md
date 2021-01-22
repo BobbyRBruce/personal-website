@@ -4,7 +4,7 @@ title: Biography
 permalink: biography
 ---
 
-Dr. Bobby R. Bruce is a Postdoctoral Scholar at [UC Davis](
+Dr. Bobby R. Bruce is a Project Scientist at [UC Davis](
 https://www.ucdavis.edu/) where he primarily works on the
 [gem5 computer architecture simulator](http://www.gem5.org) as part of the
 [Davis Computer Architecture Research group](https://arch.cs.ucdavis.edu)
@@ -34,8 +34,8 @@ in Software Engineering.
 * **2009 -- 2014** Software Engineering (BEng), Edinburgh Napier University, UK
 
 ### Employment
-
-* **2019 -- [Present]** Postdoctoral Scholar, UC Davis, CA
+* **2021 -- [Present]** Assistant Project Scientist, UC Davis, CA
+* **2019 -- 2021** Postdoctoral Scholar, UC Davis, CA
 * **2018 -- 2019** Postdoctoral Scholar, UCLA, CA
 * **2017 -- 2018** Lead Coding Tutor (part time), Richer Education, UK
 * **2014 -- 2014** Research and Development Engineer, Synopsys Inc., UK
