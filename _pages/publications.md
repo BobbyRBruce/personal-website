@@ -60,7 +60,7 @@ https://doi.org/10.6084/m9.figshare.12518474)
 **Authors**: Bobby R. Bruce, Justyna Petke, Mark Harman, and Earl T. Barr
 
 **Published**: IEEE Transactions on Software Engineering (2018)
-[ESEC/FSE '2018 Journal First paper]
+[ESEC/FSE 2018 Journal First paper]
 
 **DOI**: [10.1109/TSE.2018.2827066](https://doi.org/10.1109/TSE.2018.2827066)
 
