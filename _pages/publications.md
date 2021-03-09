@@ -4,6 +4,20 @@ title: Publications
 permalink: publications
 ---
 
+## Enabling Reproducible and Agile Full-System Simulation
+
+**Authors**: Bobby R. Bruce, Ayaz Akram, Hoa Nguyen, Kyle Roarty,
+Mahyar Samani, Marjan Friborz, Trivikram Reddy, Matthew D. Sinclair, and
+Jason Lowe-Power
+
+**Published**: ISPASS 2021
+
+**Arifact DOI**: [10.6084/m9.figshare.14176802](
+https://doi.org/10.6084/m9.figshare.14176802)
+
+[PDF Available Here (Pre-Print)](
+/assets/pdfs/publications/bruce-2021-enabling.pdf)
+
 ## Genetic Improvement @ ICSE 2020
 
 **Authors**: William B. Langdon, and others
