@@ -7,7 +7,7 @@ permalink: publications
 ## Enabling Reproducible and Agile Full-System Simulation
 
 **Authors**: Bobby R. Bruce, Ayaz Akram, Hoa Nguyen, Kyle Roarty,
-Mahyar Samani, Marjan Friborz, Trivikram Reddy, Matthew D. Sinclair, and
+Mahyar Samani, Marjan Fariborz, Trivikram Reddy, Matthew D. Sinclair, and
 Jason Lowe-Power
 
 **Published**: ISPASS 2021
