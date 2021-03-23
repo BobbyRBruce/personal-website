@@ -15,6 +15,11 @@ Jason Lowe-Power
 **Arifact DOI**: [10.6084/m9.figshare.14176802](
 https://doi.org/10.6084/m9.figshare.14176802)
 
+**Presentation slides**: [Keynote](/assets/keynote/gem5art-presentation.key),
+[PDF](/assets/pdfs/slides/gem5art-presentation.pdf)
+
+**Presentation Video**: <https://youtu.be/xrlMVeZLxK8>
+
 [PDF Available Here (Pre-Print)](
 /assets/pdfs/publications/bruce-2021-enabling.pdf)
 
