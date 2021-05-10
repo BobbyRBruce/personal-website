@@ -12,6 +12,9 @@ Jason Lowe-Power
 
 **Published**: ISPASS 2021
 
+**DOI**: [10.1109/ISPASS51385.2021.00035](
+https://doi.org/10.1109/ISPASS51385.2021.00035)
+
 **Arifact DOI**: [10.6084/m9.figshare.14176802](
 https://doi.org/10.6084/m9.figshare.14176802)
 
@@ -20,7 +23,7 @@ https://doi.org/10.6084/m9.figshare.14176802)
 
 **Presentation Video**: <https://youtu.be/xrlMVeZLxK8>
 
-[PDF Available Here (Pre-Print)](
+[PDF Available Here](
 /assets/pdfs/publications/bruce-2021-enabling.pdf)
 
 ## Genetic Improvement @ ICSE 2020
