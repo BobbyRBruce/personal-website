@@ -4,6 +4,11 @@ title: Publications
 permalink: publications
 ---
 
+This page functions as an archive of my published works. It also contains
+entries for presentations given at workshops and conferences. Links to
+related materials (PDFs, slides, videos, source-code, etc.) are provided where
+possible.
+
 ## Democratizing Computer Science Simulation With A Components Library
 
 **Authors**: Bobby R. Bruce, Jason Lowe-Power
