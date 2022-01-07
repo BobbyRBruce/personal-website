@@ -26,7 +26,7 @@ In 2014, Bobby graduated with 1st class honours from [Edinburgh Napier
 University](https://www.napier.ac.uk) with a Bachelors of Engineering (BEng)
 in Software Engineering.
 
-## A 1 Minute Resume
+## A 1 Minute Résumé
 
 ### Education
 
