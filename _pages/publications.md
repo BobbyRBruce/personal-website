@@ -4,6 +4,15 @@ title: Publications
 permalink: publications
 ---
 
+## Leveraging open source simulators for HPC codesign
+
+**Authors**: Bobby R. Bruce, Jason Lowe-Power, and Matthew D. Sinclair
+
+**Presented**: DOE ASCR 2022 Workshop on Reimagining Codesign
+
+[Presentation Proposal PDF Available Here](
+/assets/pdfs/publications/bruce-2021-leveraging.pdf)
+
 ## Enabling Reproducible and Agile Full-System Simulation
 
 **Authors**: Bobby R. Bruce, Ayaz Akram, Hoa Nguyen, Kyle Roarty,
