@@ -4,6 +4,19 @@ title: Publications
 permalink: publications
 ---
 
+## Democratizing Computer Science Simulation With A Components Library
+
+**Authors**: Bobby R. Bruce, Jason Lowe-Power
+
+**Presented**: ModSim 2021
+
+**Presentation slides**: [PowerPoint](
+/assets/powerpoint/bbruce-modsim-2021-presentation.pptx), [PDF](
+/assets/pdfs/slides/bbruce-modsim-2021-presentation.pdf)
+
+[Presentation Proposal PDF Available Here](
+/assets/pdfs/publications/bruce-2021-democratizing.pdf)
+
 ## Leveraging open source simulators for HPC codesign
 
 **Authors**: Bobby R. Bruce, Jason Lowe-Power, and Matthew D. Sinclair
