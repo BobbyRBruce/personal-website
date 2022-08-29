@@ -9,6 +9,17 @@ entries for presentations given at workshops and conferences. Links to
 related materials (PDFs, slides, videos, source-code, etc.) are provided where
 possible.
 
+## Automatically Exploring Computer System Design Spaces
+
+**Authors**: Bobby R. Bruce
+
+**Presented**: The 11th International Workshop on Genetic Improvement (GI@GECCO '22)
+
+**DOI**: [10.1145/3520304.3534021](https://doi.org/10.1145/3520304.3534021)
+
+[PDF Available Here](
+/assets/pdfs/publications/bruce-2022-automatically.pdf)
+
 ## Democratizing Computer Science Simulation With A Components Library
 
 **Authors**: Bobby R. Bruce, Jason Lowe-Power
