@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Bobby R. Bruce"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.webp"
   bio              : "A Project Scientist at UC Davis, using this website to publish his work."
   location         : "Davis, California"
   email            : "bbruce@ucdavis.edu"
