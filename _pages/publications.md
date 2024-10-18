@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Publications
-permalink: publications
+permalink: /publications/
 ---
 
 This page functions as an archive of my published works. It also contains

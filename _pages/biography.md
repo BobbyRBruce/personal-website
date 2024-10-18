@@ -1,7 +1,6 @@
 ---
-layout: single
 title: Biography
-permalink: biography
+permalink: /biography/
 ---
 
 Dr. Bobby R. Bruce is a Project Scientist at [UC Davis](
