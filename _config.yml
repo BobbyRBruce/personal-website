@@ -123,9 +123,6 @@ author:
     - label: "PGP Public Key"
       icon: "fas fa-fw fa-link"
       url: "https://keys.openpgp.org/vks/v1/by-fingerprint/70890A2DE6AF941F54B0D4B4BFB741F21AE89009"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.bobbybruce.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bobbyrbruce"
@@ -133,9 +130,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
+    - label: "Source"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bobbyrbruce"
+      url: "https://github.com/bobbyrbruce/personal-website"
 
 # Reading Files
 include:
