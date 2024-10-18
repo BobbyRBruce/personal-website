@@ -1,8 +1,9 @@
 ---
-layout: single
 title: My new website!
-tags: website
-categories: misc
+tags:
+  - website
+categories: 
+  - misc
 date: 2020-07-19
 ---
 
