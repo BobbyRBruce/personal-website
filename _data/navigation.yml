@@ -1,13 +1,13 @@
 # main links
 main:
     - title: Bio
-      url: /biography.html
+      url: /biography/
     - title: Publications
-      url: /publications.html
+      url: /publications/
     - title: Blog
-      url: /blog.html
+      url: /blog/
     - title: Search
-      url: /search.html
+      url: /search/
       #  url: /year-archive/
       #- title: "Sample Collections"
       #url: /collection-archive/
