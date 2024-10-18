@@ -115,9 +115,9 @@ analytics:
 # Site Author
 author:
   name             : "Bobby R. Bruce"
-  avatar           : "/assets/images/bio-photo.webp"
+  avatar           : "/assets/images/ai-gen-avatar.jpeg"
   bio              : "A Project Scientist at UC Davis, using this website to publish his work."
-  location         : "Davis, California"
+  location         : "Sacramento, California"
   email            : "bbruce@ucdavis.edu"
   links:
     - label: "PGP Public Key"
