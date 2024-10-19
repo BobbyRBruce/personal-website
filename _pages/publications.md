@@ -7,6 +7,22 @@ permalink: /publications/
 This page functions as an archive of my published works. It also contains entries for presentations given at workshops and conferences.
 Links to related materials (PDFs, slides, videos, source-code, etc.) are provided where possible.
 
+## Creating Flexible, High Fidelity Energy Modeling for Future HPC Systems
+
+**Authors**: Matthew D. Sinclair, Bobby R. Bruce, William Godoy, Oscar Hernandez, Jason Lowe-Power, and Shivaram Venkatarama
+
+**Presented**: The 2024 DOE Energy-Efficient Computing for Science Workshop
+
+[Presentation Proposal PDF Available Here](/assets/pdfs/publications/sinclair-2024-creating.pdf)
+
+## Designing Generalizable Power Models For Open-Source Architecture Simulators
+
+**Authors**: Alex Smith, Bobby R. Bruce, Jason Lowe-Power, and Matthew D. Sinclair
+
+**Presented**: The 3rd Open-Source Computer Architecture Research Workshop (OSCAR '24)
+
+[Presentation Proposal PDF Available Here](/assets/pdfs/publications/smith-2024-designing.pdf)
+
 ## Automatically Exploring Computer System Design Spaces
 
 **Authors**: Bobby R. Bruce
@@ -33,7 +49,7 @@ Links to related materials (PDFs, slides, videos, source-code, etc.) are provide
 
 **Authors**: Bobby R. Bruce, Jason Lowe-Power, and Matthew D. Sinclair
 
-**Presented**: DOE ASCR 2022 Workshop on Reimagining Codesign
+**Presented**: The DOE ASCR 2022 Workshop on Reimagining Codesign
 
 [Presentation Proposal PDF Available Here](/assets/pdfs/publications/bruce-2021-leveraging.pdf)
 
