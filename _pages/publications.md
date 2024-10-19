@@ -4,10 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
-This page functions as an archive of my published works. It also contains
-entries for presentations given at workshops and conferences. Links to
-related materials (PDFs, slides, videos, source-code, etc.) are provided where
-possible.
+This page functions as an archive of my published works. It also contains entries for presentations given at workshops and conferences.
+Links to related materials (PDFs, slides, videos, source-code, etc.) are provided where possible.
 
 ## Automatically Exploring Computer System Design Spaces
 
@@ -27,11 +25,9 @@ possible.
 **Presented**: ModSim 2021
 
 **Presentation slides**: [PowerPoint](
-/assets/powerpoint/bbruce-modsim-2021-presentation.pptx), [PDF](
-/assets/pdfs/slides/bbruce-modsim-2021-presentation.pdf)
+/assets/powerpoint/bbruce-modsim-2021-presentation.pptx), [PDF](/assets/pdfs/slides/bbruce-modsim-2021-presentation.pdf)
 
-[Presentation Proposal PDF Available Here](
-/assets/pdfs/publications/bruce-2021-democratizing.pdf)
+[Presentation Proposal PDF Available Here](/assets/pdfs/publications/bruce-2021-democratizing.pdf)
 
 ## Leveraging open source simulators for HPC codesign
 
@@ -39,30 +35,23 @@ possible.
 
 **Presented**: DOE ASCR 2022 Workshop on Reimagining Codesign
 
-[Presentation Proposal PDF Available Here](
-/assets/pdfs/publications/bruce-2021-leveraging.pdf)
+[Presentation Proposal PDF Available Here](/assets/pdfs/publications/bruce-2021-leveraging.pdf)
 
 ## Enabling Reproducible and Agile Full-System Simulation
 
-**Authors**: Bobby R. Bruce, Ayaz Akram, Hoa Nguyen, Kyle Roarty,
-Mahyar Samani, Marjan Fariborz, Trivikram Reddy, Matthew D. Sinclair, and
-Jason Lowe-Power
+**Authors**: Bobby R. Bruce, Ayaz Akram, Hoa Nguyen, Kyle Roarty, Mahyar Samani, Marjan Fariborz, Trivikram Reddy, Matthew D. Sinclair, and Jason Lowe-Power
 
 **Published**: ISPASS 2021
 
-**DOI**: [10.1109/ISPASS51385.2021.00035](
-https://doi.org/10.1109/ISPASS51385.2021.00035)
+**DOI**: [10.1109/ISPASS51385.2021.00035](https://doi.org/10.1109/ISPASS51385.2021.00035)
 
-**Arifact DOI**: [10.6084/m9.figshare.14176802](
-https://doi.org/10.6084/m9.figshare.14176802)
+**Arifact DOI**: [10.6084/m9.figshare.14176802](https://doi.org/10.6084/m9.figshare.14176802)
 
-**Presentation slides**: [Keynote](/assets/keynote/gem5art-presentation.key),
-[PDF](/assets/pdfs/slides/gem5art-presentation.pdf)
+**Presentation slides**: [Keynote](/assets/keynote/gem5art-presentation.key), [PDF](/assets/pdfs/slides/gem5art-presentation.pdf)
 
 **Presentation Video**: <https://youtu.be/xrlMVeZLxK8>
 
-[PDF Available Here](
-/assets/pdfs/publications/bruce-2021-enabling.pdf)
+[PDF Available Here](/assets/pdfs/publications/bruce-2021-enabling.pdf)
 
 ## Genetic Improvement @ ICSE 2020
 
@@ -82,8 +71,7 @@ https://doi.org/10.6084/m9.figshare.14176802)
 
 ## JShrink: In-depth Investigation into Debloating Modern Java Applications
 
-**Authors**: Bobby R. Bruce, Tianyi Zhang, Jaspreet Arora, Guoqing Harry Xu,
-and Miryung Kim
+**Authors**: Bobby R. Bruce, Tianyi Zhang, Jaspreet Arora, Guoqing Harry Xu, and Miryung Kim
 
 **Published**: ESEC/FSE 2020
 
@@ -92,8 +80,7 @@ and Miryung Kim
 **Arifact DOI**: [10.6084/m9.figshare.12435542](
 https://doi.org/10.6084/m9.figshare.12435542)
 
-**Presentation slides**: [Keynote](/assets/keynote/jshrink-presentation.key),
-[PDF](/assets/pdfs/slides/jshrink-presentation.pdf)
+**Presentation slides**: [Keynote](/assets/keynote/jshrink-presentation.key), [PDF](/assets/pdfs/slides/jshrink-presentation.pdf)
 
 **Presentation Video**: <https://youtu.be/FDkFg-3pn4w>
 
@@ -101,15 +88,13 @@ https://doi.org/10.6084/m9.figshare.12435542)
 
 ## WebJShrink: A Web Service for Debloating Java Bytecode
 
-**Authors**: Konner Macias, Mihir Mathur, Bobby R. Bruce, Tianyi Zhang, and
-Miryung Kim
+**Authors**: Konner Macias, Mihir Mathur, Bobby R. Bruce, Tianyi Zhang, and Miryung Kim
 
 **Published**: ESEC/FSE Demo Track 2020
 
 **DOI**: [10.1145/3368089.3417934](https://doi.org/10.1145/3368089.3417934)
 
-**Artifact DOI**: [10.6084/m9.figshare.12518474](
-https://doi.org/10.6084/m9.figshare.12518474)
+**Artifact DOI**: [10.6084/m9.figshare.12518474](https://doi.org/10.6084/m9.figshare.12518474)
 
 **Video Demo**: <https://youtu.be/yzVzcd-MJ1w>
 
@@ -133,8 +118,7 @@ https://doi.org/10.6084/m9.figshare.12518474)
 
 **Authors**: Bobby R. Bruce
 
-**Published**: [UCL Discovery ePrint-10052290](
-https://discovery.ucl.ac.uk/id/eprint/10052290)
+**Published**: [UCL Discovery ePrint-10052290](https://discovery.ucl.ac.uk/id/eprint/10052290)
 
 [PDF Available here](/assets/pdfs/publications/thesis.pdf)
 
@@ -191,8 +175,7 @@ https://doi.org/10.1007/978-3-319-47106-8_18)
 
 **Published**: PPSN 2016
 
-**DOI**: [10.1007/978-3-319-45823-6_23](
-https://doi.org/10.1007/978-3-319-45823-6_23)
+**DOI**: [10.1007/978-3-319-45823-6_23](https://doi.org/10.1007/978-3-319-45823-6_23)
 
 **Original Research Note**: [UCL Computer Science; RN/16/01](
 /assets/pdfs/publications/langdon-2016-optimising-rn.pdf)
@@ -205,8 +188,7 @@ https://doi.org/10.1007/978-3-319-45823-6_23)
 
 **Published**: SSBSE 2015
 
-**DOI**: [10.1007/978-3-319-22183-0_23](
-https://doi.org/10.1007/978-3-319-22183-0_23)
+**DOI**: [10.1007/978-3-319-22183-0_23](https://doi.org/10.1007/978-3-319-22183-0_23)
 
 [PDF Available Here](assets/pdfs/publications/burles-2015-specialising.pdf)
 
