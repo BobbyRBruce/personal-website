@@ -30,11 +30,6 @@ copyright_url            : site.url
 atom_feed:
   path                   : feed.xml
   hide                   : false 
-search                   : true
-search_full_content      : true
-search_provider          : lunr
-lunr:
-  search_within_pages    : false
 
 # SEO Related
 google_site_verification :
