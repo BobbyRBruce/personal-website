@@ -4,226 +4,135 @@ title: Publications
 permalink: /publications/
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Publications",
+  "url": "{{ '/publications/' | absolute_url }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {% assign publications = site.data.publications | sort: "year" | reverse %}
+      {% for pub in publications %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "item": {
+          "@type": {% if pub.type == "Conference paper" or pub.type == "Workshop paper" or pub.type == "Demo paper" or pub.type == "Journal article" or pub.type == "Newsletter article" %}"ScholarlyArticle"{% elsif pub.type == "Doctoral thesis" %}"Thesis"{% else %}"CreativeWork"{% endif %},
+          "headline": {{ pub.title | jsonify }},
+          "name": {{ pub.title | jsonify }},
+          "author": [
+            {% for author in pub.authors %}
+            {
+              "@type": "Person",
+              "name": {{ author | jsonify }}{% if author == "Bobby R. Bruce" %},
+              "url": {{ '/' | absolute_url | jsonify }}{% endif %}
+            }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ],
+          "datePublished": "{{ pub.year }}",
+          "isPartOf": {
+            "@type": {% if pub.type == "Workshop presentation" or pub.type == "Workshop paper" or pub.type == "Workshop report" %}"Event"{% else %}"CreativeWork"{% endif %},
+            "name": {{ pub.venue | jsonify }}
+          }{% if pub.doi or pub.artifact_doi or pub.publication_url or pub.pdf_url or pub.video_url or pub.research_note or pub.slides %},{% endif %}
+          {% if pub.doi or pub.artifact_doi %}
+          "identifier": [
+            {% assign has_prior_identifier = false %}
+            {% if pub.doi %}
+            {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": {{ pub.doi | jsonify }}
+            }{% assign has_prior_identifier = true %}{% endif %}
+            {% if pub.artifact_doi %}{% if has_prior_identifier %},{% endif %}
+            {
+              "@type": "PropertyValue",
+              "propertyID": "Artifact DOI",
+              "value": {{ pub.artifact_doi | jsonify }}
+            }
+            {% endif %}
+          ]{% if pub.publication_url or pub.pdf_url or pub.video_url or pub.research_note or pub.slides %},{% endif %}
+          {% endif %}
+          {% if pub.publication_url %}
+          "sameAs": {{ pub.publication_url | jsonify }}{% if pub.pdf_url or pub.video_url or pub.research_note or pub.slides %},{% endif %}
+          {% elsif pub.doi %}
+          "sameAs": {{ "https://doi.org/" | append: pub.doi | jsonify }}{% if pub.pdf_url or pub.video_url or pub.research_note or pub.slides %},{% endif %}
+          {% endif %}
+          {% if pub.pdf_url %}
+          "url": {{ pub.pdf_url | absolute_url | jsonify }}{% if pub.video_url or pub.research_note or pub.slides %},{% endif %}
+          {% endif %}
+          {% if pub.video_url %}
+          "subjectOf": [
+            {
+              "@type": "VideoObject",
+              "name": {{ pub.title | append: " presentation video" | jsonify }},
+              "url": {{ pub.video_url | jsonify }}
+            }{% if pub.research_note or pub.slides %},{% endif %}
+            {% if pub.research_note %}
+            {
+              "@type": "CreativeWork",
+              "name": {{ pub.research_note.label | jsonify }},
+              "url": {{ pub.research_note.url | absolute_url | jsonify }}
+            }{% if pub.slides %},{% endif %}
+            {% endif %}
+            {% if pub.slides %}
+              {% for slide in pub.slides %}
+            {
+              "@type": "PresentationDigitalDocument",
+              "name": {{ slide.label | append: " slides for " | append: pub.title | jsonify }},
+              "url": {{ slide.url | absolute_url | jsonify }}
+            }{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            {% endif %}
+          ]
+          {% elsif pub.research_note or pub.slides %}
+          "subjectOf": [
+            {% if pub.research_note %}
+            {
+              "@type": "CreativeWork",
+              "name": {{ pub.research_note.label | jsonify }},
+              "url": {{ pub.research_note.url | absolute_url | jsonify }}
+            }{% if pub.slides %},{% endif %}
+            {% endif %}
+            {% if pub.slides %}
+              {% for slide in pub.slides %}
+            {
+              "@type": "PresentationDigitalDocument",
+              "name": {{ slide.label | append: " slides for " | append: pub.title | jsonify }},
+              "url": {{ slide.url | absolute_url | jsonify }}
+            }{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            {% endif %}
+          ]
+          {% endif %}
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+
 This page functions as an archive of my published works. It also contains entries for presentations given at workshops and conferences.
-Links to related materials (PDFs, slides, videos, source-code, etc.) are provided where possible.
-
-## Creating Flexible, High Fidelity Energy Modeling for Future HPC Systems
-
-**Authors**: Matthew D. Sinclair, Bobby R. Bruce, William Godoy, Oscar Hernandez, Jason Lowe-Power, and Shivaram Venkatarama
-
-**Presented**: The 2024 DOE Energy-Efficient Computing for Science Workshop
-
-[Presentation Proposal PDF Available Here](/assets/pdfs/publications/sinclair-2024-creating.pdf)
-
-## Designing Generalizable Power Models For Open-Source Architecture Simulators
-
-**Authors**: Alex Smith, Bobby R. Bruce, Jason Lowe-Power, and Matthew D. Sinclair
-
-**Presented**: The 3rd Open-Source Computer Architecture Research Workshop (OSCAR '24)
-
-[Presentation Proposal PDF Available Here](/assets/pdfs/publications/smith-2024-designing.pdf)
-
-## Automatically Exploring Computer System Design Spaces
-
-**Authors**: Bobby R. Bruce
-
-**Presented**: The 11th International Workshop on Genetic Improvement (GI@GECCO '22)
-
-**DOI**: [10.1145/3520304.3534021](https://doi.org/10.1145/3520304.3534021)
-
-[PDF Available Here](
-/assets/pdfs/publications/bruce-2022-automatically.pdf)
-
-## Democratizing Computer Science Simulation With A Components Library
-
-**Authors**: Bobby R. Bruce, Jason Lowe-Power
-
-**Presented**: ModSim 2021
-
-**Presentation slides**: [PowerPoint](
-/assets/powerpoint/bbruce-modsim-2021-presentation.pptx), [PDF](/assets/pdfs/slides/bbruce-modsim-2021-presentation.pdf)
-
-[Presentation Proposal PDF Available Here](/assets/pdfs/publications/bruce-2021-democratizing.pdf)
-
-## Leveraging open source simulators for HPC codesign
-
-**Authors**: Bobby R. Bruce, Jason Lowe-Power, and Matthew D. Sinclair
-
-**Presented**: The DOE ASCR 2022 Workshop on Reimagining Codesign
-
-[Presentation Proposal PDF Available Here](/assets/pdfs/publications/bruce-2021-leveraging.pdf)
-
-## Enabling Reproducible and Agile Full-System Simulation
-
-**Authors**: Bobby R. Bruce, Ayaz Akram, Hoa Nguyen, Kyle Roarty, Mahyar Samani, Marjan Fariborz, Trivikram Reddy, Matthew D. Sinclair, and Jason Lowe-Power
-
-**Published**: ISPASS 2021
-
-**DOI**: [10.1109/ISPASS51385.2021.00035](https://doi.org/10.1109/ISPASS51385.2021.00035)
-
-**Arifact DOI**: [10.6084/m9.figshare.14176802](https://doi.org/10.6084/m9.figshare.14176802)
-
-**Presentation slides**: [Keynote](/assets/keynote/gem5art-presentation.key), [PDF](/assets/pdfs/slides/gem5art-presentation.pdf)
-
-**Presentation Video**: <https://youtu.be/xrlMVeZLxK8>
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2021-enabling.pdf)
-
-## Genetic Improvement @ ICSE 2020
-
-**Authors**: William B. Langdon, and others
-
-**Published**: SIGSOFT Software Engineering Notes (Volume 45, Number 4, 2020)
-
-**DOI** [10.1145/3417564.3417575](https://doi.org/10.1145/3417564.3417575)
-
-[PDF Available Here](/assets/pdfs/publications/langdon-2020-genetic.pdf)
-
-## The gem5 Simulator: Version 20.0+
-
-**Authors**: Jason Lowe Power, and others
-
-**Published**: [arXiv:2007.03152](https://arxiv.org/abs/2007.03152)
-
-## JShrink: In-depth Investigation into Debloating Modern Java Applications
-
-**Authors**: Bobby R. Bruce, Tianyi Zhang, Jaspreet Arora, Guoqing Harry Xu, and Miryung Kim
-
-**Published**: ESEC/FSE 2020
-
-**DOI**: [10.1145/3368089.3409738](https://doi.org/10.1145/3368089.3409738)
-
-**Arifact DOI**: [10.6084/m9.figshare.12435542](
-https://doi.org/10.6084/m9.figshare.12435542)
-
-**Presentation slides**: [Keynote](/assets/keynote/jshrink-presentation.key), [PDF](/assets/pdfs/slides/jshrink-presentation.pdf)
-
-**Presentation Video**: <https://youtu.be/FDkFg-3pn4w>
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2020-jshrink.pdf)
-
-## WebJShrink: A Web Service for Debloating Java Bytecode
-
-**Authors**: Konner Macias, Mihir Mathur, Bobby R. Bruce, Tianyi Zhang, and Miryung Kim
-
-**Published**: ESEC/FSE Demo Track 2020
-
-**DOI**: [10.1145/3368089.3417934](https://doi.org/10.1145/3368089.3417934)
-
-**Artifact DOI**: [10.6084/m9.figshare.12518474](https://doi.org/10.6084/m9.figshare.12518474)
-
-**Video Demo**: <https://youtu.be/yzVzcd-MJ1w>
-
-[PDF Available Here](/assets/pdfs/publications/macias-2020-webjshrink.pdf)
-
-## Approximate Oracles and Synergy in Software Energy Search Spaces
-
-**Authors**: Bobby R. Bruce, Justyna Petke, Mark Harman, and Earl T. Barr
-
-**Published**: IEEE Transactions on Software Engineering (2018)
-[ESEC/FSE 2018 Journal First paper]
-
-**DOI**: [10.1109/TSE.2018.2827066](https://doi.org/10.1109/TSE.2018.2827066)
-
-**Original Research Note**: [UCL Computer Science; RN/17/01](
-/assets/pdfs/publications/bruce-2017-approximate.pdf)
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2019-approximate.pdf)
-
-## **[Doctoral Thesis]** The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement
-
-**Authors**: Bobby R. Bruce
-
-**Published**: [UCL Discovery ePrint-10052290](https://discovery.ucl.ac.uk/id/eprint/10052290)
-
-[PDF Available here](/assets/pdfs/publications/thesis.pdf)
-
-## Towards automatic generation and insertion of OpenACC directives
-
-**Authors**: Bobby R. Bruce, and Justyna Petke
-
-**Published**: 2018 Research Note (UCL Computer Science; RN/18/04)
-
-[PDF Available here](/assets/pdfs/publications/bruce-2018-towards.pdf)
-
-## Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV : A Correction
-
-**Authors:**: Bobby R. Bruce
-
-**Published**: 2017 Research Note (UCL Computer Science; RN/17/07)
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2017-deep.pdf)
-
-## Deep Parameter Optimisation on Android Smartphones for Energy minimisation - A Tale of Woe and Proof-of-Concept
-
-**Authors**: Mahmoud A. Bokhari, Bobby R. Bruce, Brad Alexander, and Markus
-Wagner
-
-**Published**: GECCO Companion 2017
-
-**DOI**: [10.1145/3067695.3082519](https://doi.org/10.1145/3067695.3082519)
-
-[PDF Available Here](/assets/pdfs/publications/bokhari-2017-deep.pdf)
-
-
-## A Report on the Genetic Improvement Workshop@GECCO 2016
-
-**Authors**: Bobby R. Bruce
-
-**Published**: SIGEVOLution Newsletter (Volume 9, Issue 2, 2016)
-
-[PDF Available Here](/assets/pdfs/publications/sigevolution-09-02.pdf)
-
-## Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV
-
-**Authors**: Bobby R. Bruce, Jonathan M. Aitken, and Justyna Petke
-
-**Published**: SSBSE 2016
-
-**DOI**: [10.1007/978-3-319-47106-8_18](
-https://doi.org/10.1007/978-3-319-47106-8_18)
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2016-deep.pdf)
-
-## Optimising Quantisation Noise in Energy Measurement
-
-**Authors**: William B. Langdon, Justyna Petke, and Bobby R. Bruce
-
-**Published**: PPSN 2016
-
-**DOI**: [10.1007/978-3-319-45823-6_23](https://doi.org/10.1007/978-3-319-45823-6_23)
-
-**Original Research Note**: [UCL Computer Science; RN/16/01](
-/assets/pdfs/publications/langdon-2016-optimising-rn.pdf)
-
-[PDF Available Here](/assets/pdfs/publications/langdon-2016-optimising.pdf)
-
-## Specialising Guava's Cache to Reduce Energy Consumption
-
-**Authors**: Nathan Burles, Edward Bowles, Bobby R. Bruce, and Komsan Srivisut
-
-**Published**: SSBSE 2015
-
-**DOI**: [10.1007/978-3-319-22183-0_23](https://doi.org/10.1007/978-3-319-22183-0_23)
-
-[PDF Available Here](assets/pdfs/publications/burles-2015-specialising.pdf)
-
-## Energy Optimisation via Genetic Improvement : A SBSE technique for a new era in Software Development
-
-**Authors**: Bobby R. Bruce
-
-**Published**: GECCO Compansion 2015
-
-**DOI**: [10.1145/2739482.2768420](https://doi.org/10.1145/2739482.2768420)
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2015-energy.pdf)
-
-## Reducing Energy Consumption Using Genetic Improvement
-
-**Authors**: Bobby R. Bruce, Justyna Petke, and Mark Harman
-
-**Published**: GECCO 2015
-
-**DOI**: [10.1145/2739480.2754752](https://doi.org/10.1145/2739480.2754752)
-
-[PDF Available Here](/assets/pdfs/publications/bruce-2015-reducing.pdf)
+Links to related materials (PDFs, slides, videos, source code, etc.) are provided where possible.
+
+{% assign publications = site.data.publications | sort: "year" | reverse %}
+{% for pub in publications %}
+## {{ pub.title }}
+
+**Type**: {{ pub.type }}  
+**Year**: {{ pub.year }}  
+**Authors**: {{ pub.authors | join: ", " }}  
+**Venue**: {{ pub.venue }} {% if pub.doi %}  
+**DOI**: [{{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %} {% if pub.artifact_doi %}  
+**Artifact DOI**: [{{ pub.artifact_doi }}](https://doi.org/{{ pub.artifact_doi }}){% endif %}{% if pub.publication_url %}  
+**Publication**: [Link]({{ pub.publication_url }}){% endif %}{% if pub.research_note %}  
+**Original Research Note**: [{{ pub.research_note.label }}]({{ pub.research_note.url }}){% endif %}{% assign has_resources = false %}{% if pub.pdf_url or pub.video_url or pub.slides %}{% assign has_resources = true %}{% endif %}{% if has_resources %}  
+**Full Paper**:
+{% if pub.pdf_url %}[PDF]({{ pub.pdf_url }}){% endif %}{% if pub.slides %}  
+**Presentation Slides**:{% for slide in pub.slides %}{% if forloop.index0 > 0 %}, {% endif %}[{{ slide.label }}]({{ slide.url }}){% endfor %}{% endif %}{% if pub.video_url %}  
+**Presentation Recording**:
+[Video]({{ pub.video_url }}){% endif %}
+{% endif %}  
+{% endfor %}

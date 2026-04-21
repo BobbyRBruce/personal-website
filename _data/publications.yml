@@ -1,0 +1,252 @@
+- title: "Creating Flexible, High Fidelity Energy Modeling for Future HPC Systems"
+  type: "Workshop presentation"
+  year: 2024
+  authors:
+    - "Matthew D. Sinclair"
+    - "Bobby R. Bruce"
+    - "William Godoy"
+    - "Oscar Hernandez"
+    - "Jason Lowe-Power"
+    - "Shivaram Venkataraman"
+  venue: "DOE Energy-Efficient Computing for Science Workshop"
+  pdf_url: "/assets/pdfs/publications/sinclair-2024-creating.pdf"
+
+- title: "Designing Generalizable Power Models For Open-Source Architecture Simulators"
+  type: "Workshop presentation"
+  year: 2024
+  authors:
+    - "Alex Smith"
+    - "Bobby R. Bruce"
+    - "Jason Lowe-Power"
+    - "Matthew D. Sinclair"
+  venue: "3rd Open-Source Computer Architecture Research Workshop (OSCAR '24)"
+  pdf_url: "/assets/pdfs/publications/smith-2024-designing.pdf"
+
+- title: "Automatically Exploring Computer System Design Spaces"
+  type: "Workshop paper"
+  year: 2022
+  authors:
+    - "Bobby R. Bruce"
+  venue: "11th International Workshop on Genetic Improvement (GI@GECCO '22)"
+  doi: "10.1145/3520304.3534021"
+  pdf_url: "/assets/pdfs/publications/bruce-2022-automatically.pdf"
+
+- title: "Democratizing Computer Science Simulation With A Components Library"
+  type: "Workshop presentation"
+  year: 2021
+  authors:
+    - "Bobby R. Bruce"
+    - "Jason Lowe-Power"
+  venue: "ModSim 2021"
+  slides:
+    - label: "PowerPoint"
+      url: "/assets/powerpoint/bbruce-modsim-2021-presentation.pptx"
+    - label: "PDF"
+      url: "/assets/pdfs/slides/bbruce-modsim-2021-presentation.pdf"
+  pdf_url: "/assets/pdfs/publications/bruce-2021-democratizing.pdf"
+
+- title: "Leveraging open source simulators for HPC codesign"
+  type: "Workshop presentation"
+  year: 2021
+  authors:
+    - "Bobby R. Bruce"
+    - "Jason Lowe-Power"
+    - "Matthew D. Sinclair"
+  venue: "DOE ASCR Workshop on Reimagining Codesign"
+  pdf_url: "/assets/pdfs/publications/bruce-2021-leveraging.pdf"
+
+- title: "Enabling Reproducible and Agile Full-System Simulation"
+  type: "Conference paper"
+  year: 2021
+  authors:
+    - "Bobby R. Bruce"
+    - "Ayaz Akram"
+    - "Hoa Nguyen"
+    - "Kyle Roarty"
+    - "Mahyar Samani"
+    - "Marjan Fariborz"
+    - "Trivikram Reddy"
+    - "Matthew D. Sinclair"
+    - "Jason Lowe-Power"
+  venue: "ISPASS 2021"
+  doi: "10.1109/ISPASS51385.2021.00035"
+  artifact_doi: "10.6084/m9.figshare.14176802"
+  slides:
+    - label: "Keynote"
+      url: "/assets/keynote/gem5art-presentation.key"
+    - label: "PDF"
+      url: "/assets/pdfs/slides/gem5art-presentation.pdf"
+  video_url: "https://youtu.be/xrlMVeZLxK8"
+  pdf_url: "/assets/pdfs/publications/bruce-2021-enabling.pdf"
+
+- title: "Genetic Improvement @ ICSE 2020"
+  type: "Workshop report"
+  year: 2020
+  authors:
+    - "William B. Langdon"
+    - "and others"
+  venue: "SIGSOFT Software Engineering Notes (Volume 45, Number 4, 2020)"
+  doi: "10.1145/3417564.3417575"
+  pdf_url: "/assets/pdfs/publications/langdon-2020-genetic.pdf"
+
+- title: "The gem5 Simulator: Version 20.0+"
+  type: "Preprint"
+  year: 2020
+  authors:
+    - "Jason Lowe-Power"
+    - "and others"
+  venue: "arXiv:2007.03152"
+  publication_url: "https://arxiv.org/abs/2007.03152"
+
+- title: "JShrink: In-depth Investigation into Debloating Modern Java Applications"
+  type: "Conference paper"
+  year: 2020
+  authors:
+    - "Bobby R. Bruce"
+    - "Tianyi Zhang"
+    - "Jaspreet Arora"
+    - "Guoqing Harry Xu"
+    - "Miryung Kim"
+  venue: "ESEC/FSE 2020"
+  doi: "10.1145/3368089.3409738"
+  artifact_doi: "10.6084/m9.figshare.12435542"
+  slides:
+    - label: "Keynote"
+      url: "/assets/keynote/jshrink-presentation.key"
+    - label: "PDF"
+      url: "/assets/pdfs/slides/jshrink-presentation.pdf"
+  video_url: "https://youtu.be/FDkFg-3pn4w"
+  pdf_url: "/assets/pdfs/publications/bruce-2020-jshrink.pdf"
+
+- title: "WebJShrink: A Web Service for Debloating Java Bytecode"
+  type: "Demo paper"
+  year: 2020
+  authors:
+    - "Konner Macias"
+    - "Mihir Mathur"
+    - "Bobby R. Bruce"
+    - "Tianyi Zhang"
+    - "Miryung Kim"
+  venue: "ESEC/FSE Demo Track 2020"
+  doi: "10.1145/3368089.3417934"
+  artifact_doi: "10.6084/m9.figshare.12518474"
+  video_url: "https://youtu.be/yzVzcd-MJ1w"
+  pdf_url: "/assets/pdfs/publications/macias-2020-webjshrink.pdf"
+
+- title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
+  type: "Journal article"
+  year: 2019
+  authors:
+    - "Bobby R. Bruce"
+    - "Justyna Petke"
+    - "Mark Harman"
+    - "Earl T. Barr"
+  venue: "IEEE Transactions on Software Engineering (2018); ESEC/FSE 2018 Journal First paper"
+  doi: "10.1109/TSE.2018.2827066"
+  research_note:
+    label: "UCL Computer Science; RN/17/01"
+    url: "/assets/pdfs/publications/bruce-2017-approximate.pdf"
+  pdf_url: "/assets/pdfs/publications/bruce-2019-approximate.pdf"
+
+- title: "The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement"
+  type: "Doctoral thesis"
+  year: 2018
+  authors:
+    - "Bobby R. Bruce"
+  venue: "UCL Discovery ePrint-10052290"
+  publication_url: "https://discovery.ucl.ac.uk/id/eprint/10052290"
+  pdf_url: "/assets/pdfs/publications/thesis.pdf"
+
+- title: "Towards automatic generation and insertion of OpenACC directives"
+  type: "Research note"
+  year: 2018
+  authors:
+    - "Bobby R. Bruce"
+    - "Justyna Petke"
+  venue: "UCL Computer Science; RN/18/04"
+  pdf_url: "/assets/pdfs/publications/bruce-2018-towards.pdf"
+
+- title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV: A Correction"
+  type: "Research note"
+  year: 2017
+  authors:
+    - "Bobby R. Bruce"
+  venue: "UCL Computer Science; RN/17/07"
+  pdf_url: "/assets/pdfs/publications/bruce-2017-deep.pdf"
+
+- title: "Deep Parameter Optimisation on Android Smartphones for Energy minimisation - A Tale of Woe and Proof-of-Concept"
+  type: "Conference paper"
+  year: 2017
+  authors:
+    - "Mahmoud A. Bokhari"
+    - "Bobby R. Bruce"
+    - "Brad Alexander"
+    - "Markus Wagner"
+  venue: "GECCO Companion 2017"
+  doi: "10.1145/3067695.3082519"
+  pdf_url: "/assets/pdfs/publications/bokhari-2017-deep.pdf"
+
+- title: "A Report on the Genetic Improvement Workshop@GECCO 2016"
+  type: "Newsletter article"
+  year: 2016
+  authors:
+    - "Bobby R. Bruce"
+  venue: "SIGEVOLution Newsletter (Volume 9, Issue 2, 2016)"
+  pdf_url: "/assets/pdfs/publications/sigevolution-09-02.pdf"
+
+- title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV"
+  type: "Conference paper"
+  year: 2016
+  authors:
+    - "Bobby R. Bruce"
+    - "Jonathan M. Aitken"
+    - "Justyna Petke"
+  venue: "SSBSE 2016"
+  doi: "10.1007/978-3-319-47106-8_18"
+  pdf_url: "/assets/pdfs/publications/bruce-2016-deep.pdf"
+
+- title: "Optimising Quantisation Noise in Energy Measurement"
+  type: "Conference paper"
+  year: 2016
+  authors:
+    - "William B. Langdon"
+    - "Justyna Petke"
+    - "Bobby R. Bruce"
+  venue: "PPSN 2016"
+  doi: "10.1007/978-3-319-45823-6_23"
+  research_note:
+    label: "UCL Computer Science; RN/16/01"
+    url: "/assets/pdfs/publications/langdon-2016-optimising-rn.pdf"
+  pdf_url: "/assets/pdfs/publications/langdon-2016-optimising.pdf"
+
+- title: "Specialising Guava's Cache to Reduce Energy Consumption"
+  type: "Conference paper"
+  year: 2015
+  authors:
+    - "Nathan Burles"
+    - "Edward Bowles"
+    - "Bobby R. Bruce"
+    - "Komsan Srivisut"
+  venue: "SSBSE 2015"
+  doi: "10.1007/978-3-319-22183-0_23"
+  pdf_url: "/assets/pdfs/publications/burles-2015-specialising.pdf"
+
+- title: "Energy Optimisation via Genetic Improvement: A SBSE technique for a new era in Software Development"
+  type: "Conference paper"
+  year: 2015
+  authors:
+    - "Bobby R. Bruce"
+  venue: "GECCO Companion 2015"
+  doi: "10.1145/2739482.2768420"
+  pdf_url: "/assets/pdfs/publications/bruce-2015-energy.pdf"
+
+- title: "Reducing Energy Consumption Using Genetic Improvement"
+  type: "Conference paper"
+  year: 2015
+  authors:
+    - "Bobby R. Bruce"
+    - "Justyna Petke"
+    - "Mark Harman"
+  venue: "GECCO 2015"
+  doi: "10.1145/2739480.2754752"
+  pdf_url: "/assets/pdfs/publications/bruce-2015-reducing.pdf"
