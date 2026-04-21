@@ -1,3 +1,47 @@
+- title: "Characterizing GPU Energy Usage in Exascale-Ready Portable Science Applications"
+  type: "Conference paper"
+  year: 2025
+  authors:
+    - "William F. Godoy"
+    - "Oscar Hernandez"
+    - "Paul R. C. Kent"
+    - "Maria Patrou"
+    - "Kazi Asifuzzaman"
+    - "Narasinga Rao Miniskar"
+    - "Pedro Valero-Lara"
+    - "Jeffrey S. Vetter"
+    - "Matthew D. Sinclair"
+    - "Jason Lowe-Power"
+    - "Bobby R. Bruce"
+  venue: "International Conference on High Performance Computing (HiPC 2025)"
+  doi: "10.1007/978-3-032-07612-0_14"
+  pdf_url: "/assets/pdfs/publications/godoy-2025-characterizing.pdf"
+
+
+- title: "Search+LLM-based Testing for ARM Simulators"
+  type: "Conference paper"
+  year: 2025
+  authors:
+    - "Karine Even-Mendoza"
+    - "Héctor D. Menéndez"
+    - "William B. Langdon"
+    - "Aidan Dakhama"
+    - "Justyna Petke"
+    - "Bobby R. Bruce"
+  venue: "IEEE/ACM International Conference on Software Engineering (ICSE 2025), Software Engineering in Practice Track (SEIP)"
+  doi: "10.1109/ICSE-SEIP66354.2025.00047"
+  pdf_url: "/assets/pdfs/publications/mendoza-2025-search.pdf"
+
+- title: "The gem5 C++ glibc Heap Fitness Landscape"
+  type: "Workshop paper"
+  year: 2025
+  authors:
+    - "William B. Langdon"
+    - "Bobby R. Bruce"
+  venue: "2025 IEEE/ACM International Workshop on Genetic Improvement (GI 2025)"
+  doi: "10.1109/GI66624.2025.00010"
+  pdf_url: "/assets/pdfs/publications/langdon-2025-gem5.pdf"
+
 - title: "Creating Flexible, High Fidelity Energy Modeling for Future HPC Systems"
   type: "Workshop presentation"
   year: 2024
