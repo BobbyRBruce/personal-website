@@ -7,3 +7,82 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* Accessibility improvements */
+.skip-links .screen-reader-shortcut:focus,
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #0b63c9;
+  outline-offset: 2px;
+}
+
+.masthead__menu-item a:focus,
+.site-title:focus,
+.author__urls a:focus,
+.archive__item-title a:focus,
+.page__content a:focus {
+  text-decoration: underline;
+}
+
+.search-form {
+  margin-bottom: 1rem;
+}
+
+.search-form__label {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.search-form__help {
+  margin: 0 0 0.75rem;
+  font-size: 0.9em;
+}
+
+.results__found {
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+
+.publications-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.publication-entry {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.publication-entry__meta {
+  margin: 0;
+}
+
+.publication-entry__meta dt {
+  font-weight: 700;
+  margin-top: 0.75rem;
+}
+
+.publication-entry__meta dd {
+  margin: 0.15rem 0 0;
+}
+
+.publication-entry__resources {
+  margin: 0.35rem 0 0 1.25rem;
+}
+
+.publication-entry__resources li + li {
+  margin-top: 0.25rem;
+}
+
+.page__footer footer {
+  color: #2f2f2f;
+}
+
+.page__footer a {
+  color: #1f4f8b;
+}

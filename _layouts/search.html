@@ -26,8 +26,13 @@ author_profile: true
     {%- assign search_provider = site.search_provider | default: "lunr" -%}
     {%- case search_provider -%}
       {%- when "lunr" -%}
-        <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-        <div id="results" class="results"></div>
+        <form class="search-form" role="search" action="{{ page.url | relative_url }}" method="get">
+          <label for="search" class="search-form__label">Search the site</label>
+          <p id="search-help" class="search-form__help">Search page titles, excerpts, categories, and tags.</p>
+          <input type="search" id="search" name="q" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" aria-describedby="search-help results-count" autocomplete="off" />
+        </form>
+        <p id="results-count" class="results__found" aria-live="polite"></p>
+        <div id="results" class="results" aria-live="polite" aria-relevant="additions text"></div>
       {%- when "google" -%}
         <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
         <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />

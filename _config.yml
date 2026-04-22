@@ -24,8 +24,8 @@ url                      : "https://www.bobbybruce.net"
 repository               : "bobbyrbruce/personal-website"
 words_per_minute         : 200
 enable_copy_code_button  : true
-copyright                : site.title
-copyright_url            : site.url
+copyright                : "Bobby R. Bruce"
+copyright_url            : "https://www.bobbybruce.net"
 
 atom_feed:
   path                   : feed.xml

@@ -115,24 +115,67 @@ permalink: /publications/
 </script>
 
 This page functions as an archive of my published works. It also contains entries for presentations given at workshops and conferences.
-Links to related materials (PDFs, slides, videos, source code, etc.) are provided where possible.
+Links to related materials such as papers, slides, videos, and original research notes are provided where possible.
 
 {% assign publications = site.data.publications | sort: "year" | reverse %}
+<div class="publications-list" role="list">
 {% for pub in publications %}
-## {{ pub.title }}
+  <article class="publication-entry" role="listitem" aria-labelledby="publication-{{ forloop.index }}">
+    <h2 id="publication-{{ forloop.index }}">{{ pub.title }}</h2>
+    <dl class="publication-entry__meta">
+      <dt>Type</dt>
+      <dd>{{ pub.type }}</dd>
 
-**Type**: {{ pub.type }}  
-**Year**: {{ pub.year }}  
-**Authors**: {{ pub.authors | join: ", " }}  
-**Venue**: {{ pub.venue }} {% if pub.doi %}  
-**DOI**: [{{ pub.doi }}](https://doi.org/{{ pub.doi }}){% endif %} {% if pub.artifact_doi %}  
-**Artifact DOI**: [{{ pub.artifact_doi }}](https://doi.org/{{ pub.artifact_doi }}){% endif %}{% if pub.publication_url %}  
-**Publication**: [Link]({{ pub.publication_url }}){% endif %}{% if pub.research_note %}  
-**Original Research Note**: [{{ pub.research_note.label }}]({{ pub.research_note.url }}){% endif %}{% assign has_resources = false %}{% if pub.pdf_url or pub.video_url or pub.slides %}{% assign has_resources = true %}{% endif %}{% if has_resources %}  
-**Full Paper**:
-{% if pub.pdf_url %}[PDF]({{ pub.pdf_url }}){% endif %}{% if pub.slides %}  
-**Presentation Slides**:{% for slide in pub.slides %}{% if forloop.index0 > 0 %}, {% endif %}[{{ slide.label }}]({{ slide.url }}){% endfor %}{% endif %}{% if pub.video_url %}  
-**Presentation Recording**:
-[Video]({{ pub.video_url }}){% endif %}
-{% endif %}  
+      <dt>Year</dt>
+      <dd>{{ pub.year }}</dd>
+
+      <dt>Authors</dt>
+      <dd>{{ pub.authors | join: ", " }}</dd>
+
+      <dt>Venue</dt>
+      <dd>{{ pub.venue }}</dd>
+
+      {% if pub.doi %}
+      <dt>DOI</dt>
+      <dd><a href="https://doi.org/{{ pub.doi }}">DOI for {{ pub.title }}</a></dd>
+      {% endif %}
+
+      {% if pub.artifact_doi %}
+      <dt>Artifact DOI</dt>
+      <dd><a href="https://doi.org/{{ pub.artifact_doi }}">Artifact DOI for {{ pub.title }}</a></dd>
+      {% endif %}
+
+      {% if pub.publication_url %}
+      <dt>Publication</dt>
+      <dd><a href="{{ pub.publication_url }}">Publication page for {{ pub.title }}</a></dd>
+      {% endif %}
+
+      {% if pub.research_note %}
+      <dt>Original Research Note</dt>
+      <dd><a href="{{ pub.research_note.url }}">{{ pub.research_note.label }} for {{ pub.title }}</a></dd>
+      {% endif %}
+
+      {% if pub.pdf_url %}
+      <dt>Full Paper</dt>
+      <dd><a href="{{ pub.pdf_url }}">PDF of {{ pub.title }}</a></dd>
+      {% endif %}
+
+      {% if pub.slides %}
+      <dt>Presentation Slides</dt>
+      <dd>
+        <ul class="publication-entry__resources">
+        {% for slide in pub.slides %}
+          <li><a href="{{ slide.url }}">{{ slide.label }} slides for {{ pub.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </dd>
+      {% endif %}
+
+      {% if pub.video_url %}
+      <dt>Presentation Recording</dt>
+      <dd><a href="{{ pub.video_url }}">Video of {{ pub.title }}</a></dd>
+      {% endif %}
+    </dl>
+  </article>
 {% endfor %}
+</div>

@@ -23,9 +23,17 @@ var idx = lunr(function () {
 });
 
 $(document).ready(function() {
-  $('input#search').on('keyup', function () {
-    var resultdiv = $('#results');
-    var query = $(this).val().toLowerCase();
+  var searchInput = $('input#search');
+  var resultdiv = $('#results');
+  var resultsCount = $('#results-count');
+
+  function updateResults() {
+    var query = searchInput.val().toLowerCase().trim();
+    if (query.length === 0) {
+      resultdiv.empty();
+      resultsCount.text('Enter a search term to see matching pages.');
+      return;
+    }
     var result =
       idx.query(function (q) {
         query.split(lunr.tokenizer.separator).forEach(function (term) {
@@ -39,7 +47,7 @@ $(document).ready(function() {
         })
       });
     resultdiv.empty();
-    resultdiv.prepend('<p class="results__found">'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
+    resultsCount.text(result.length + ' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}');
     for (var item in result) {
       var ref = result[item].ref;
       if(store[ref].teaser){
@@ -69,5 +77,15 @@ $(document).ready(function() {
       }
       resultdiv.append(searchitem);
     }
-  });
+  }
+
+  searchInput.on('input', updateResults);
+
+  var params = new URLSearchParams(window.location.search);
+  if (params.has('q')) {
+    searchInput.val(params.get('q'));
+    updateResults();
+  } else {
+    resultsCount.text('Enter a search term to see matching pages.');
+  }
 });

@@ -7,7 +7,7 @@ permalink: /biography/
 Dr. Bobby R. Bruce is a Project Scientist at [UC Davis](https://www.ucdavis.edu/) where he primarily works on the [gem5 computer architecture simulator](http://www.gem5.org) as part of the [Davis Computer Architecture Research group](https://arch.cs.ucdavis.edu) (DArchR).
 Prior to UC Davis, Bobby carried out research into the automatic optimization of Java bytecode within UCLA's [Software Evolution and Analysis Laboratory](http://web.cs.ucla.edu/~miryung/research.html).
 
-Bobby completed his PhD in Software Engineering from [UCL](https://www.ucl.ac.uk) in 2018, having been jointly supervised by[Prof. Mark Harman](http://www0.cs.ucl.ac.uk/staff/M.Harman) and [Dr. Justyna Petke](http://www0.cs.ucl.ac.uk/staff/J.Petke), with [Prof. Earl T. Barr](http://earlbarr.com/) as second-supervisor.
+Bobby completed his PhD in Software Engineering from [UCL](https://www.ucl.ac.uk) in 2018, having been jointly supervised by [Prof. Mark Harman](http://www0.cs.ucl.ac.uk/staff/M.Harman) and [Dr. Justyna Petke](http://www0.cs.ucl.ac.uk/staff/J.Petke), with [Prof. Earl T. Barr](http://earlbarr.com/) as second-supervisor.
 His primary research focus during this time was the automated improvement of software's non-functional properties using [search-based software engineering](https://en.wikipedia.org/wiki/Search-based_software_engineering).
 
 In 2014, Bobby graduated with 1st class honours from [Edinburgh Napier University](https://www.napier.ac.uk) with a Bachelors of Engineering (BEng) in Software Engineering.
@@ -21,7 +21,7 @@ In 2014, Bobby graduated with 1st class honours from [Edinburgh Napier Universit
 
 ### Employment
 
-* **2021 -- [Present]** Assistant Project Scientist, UC Davis, CA
+* **2021 -- Present** Assistant Project Scientist, UC Davis, CA
 * **2019 -- 2021** Postdoctoral Scholar, UC Davis, CA
 * **2018 -- 2019** Postdoctoral Scholar, UCLA, CA
 * **2017 -- 2018** Lead Coding Tutor (part time), Richer Education, UK
