@@ -123,8 +123,7 @@ Links to related materials such as papers, slides, videos, and original research
   <article class="publication-entry" role="listitem" aria-labelledby="publication-{{ forloop.index }}">
     <h2 id="publication-{{ forloop.index }}">{{ pub.title }}</h2>
     <dl class="publication-entry__meta">
-      <dt>Type</dt>
-      <dd>{{ pub.type }}</dd>
+      <dd><i>{{ pub.type }}</i></dd>
 
       <dt>Year</dt>
       <dd>{{ pub.year }}</dd>
@@ -132,32 +131,32 @@ Links to related materials such as papers, slides, videos, and original research
       <dt>Authors</dt>
       <dd>{{ pub.authors | join: ", " }}</dd>
 
-      <dt>Venue</dt>
+      <dt>Publication Venue</dt>
       <dd>{{ pub.venue }}</dd>
 
       {% if pub.doi %}
       <dt>DOI</dt>
-      <dd><a href="https://doi.org/{{ pub.doi }}">DOI for {{ pub.title }}</a></dd>
+      <dd><a href="https://doi.org/{{ pub.doi }}">[Link] '{{ pub.title }}' DOI -- {{ pub.doi }}</a></dd>
       {% endif %}
 
       {% if pub.artifact_doi %}
       <dt>Artifact DOI</dt>
-      <dd><a href="https://doi.org/{{ pub.artifact_doi }}">Artifact DOI for {{ pub.title }}</a></dd>
+      <dd><a href="https://doi.org/{{ pub.artifact_doi }}">[Link] '{{ pub.title }}' Artifact DOI -- {{ pub.artifact_doi }}</a></dd>
       {% endif %}
 
       {% if pub.publication_url %}
-      <dt>Publication</dt>
-      <dd><a href="{{ pub.publication_url }}">Publication page for {{ pub.title }}</a></dd>
+      <dt>Publication Page</dt>
+      <dd><a href="{{ pub.publication_url }}">[Link] '{{ pub.title }}' Publication Page</a></dd>
       {% endif %}
 
       {% if pub.research_note %}
-      <dt>Original Research Note</dt>
-      <dd><a href="{{ pub.research_note.url }}">{{ pub.research_note.label }} for {{ pub.title }}</a></dd>
+      <dt>Research Note</dt>
+      <dd><a href="{{ pub.research_note.url }}">[PDF] '{{ pub.title }}' Research Note -- {{ pub.research_note.label }}</a></dd>
       {% endif %}
 
       {% if pub.pdf_url %}
       <dt>Full Paper</dt>
-      <dd><a href="{{ pub.pdf_url }}">PDF of {{ pub.title }}</a></dd>
+      <dd><a href="{{ pub.pdf_url }}">[PDF] '{{ pub.title }}' Full Paper</a></dd>
       {% endif %}
 
       {% if pub.slides %}
@@ -165,7 +164,7 @@ Links to related materials such as papers, slides, videos, and original research
       <dd>
         <ul class="publication-entry__resources">
         {% for slide in pub.slides %}
-          <li><a href="{{ slide.url }}">{{ slide.label }} slides for {{ pub.title }}</a></li>
+          <li><a href="{{ slide.url }}">[{{ slide.label }}] '{{ pub.title }}' Presentation Slides </a></li>
         {% endfor %}
         </ul>
       </dd>
@@ -173,7 +172,7 @@ Links to related materials such as papers, slides, videos, and original research
 
       {% if pub.video_url %}
       <dt>Presentation Recording</dt>
-      <dd><a href="{{ pub.video_url }}">Video of {{ pub.title }}</a></dd>
+      <dd><a href="{{ pub.video_url }}">[Link] '{{ pub.title }}' Presentation Recording</a></dd>
       {% endif %}
     </dl>
   </article>

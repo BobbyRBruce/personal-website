@@ -207,16 +207,18 @@
   authors:
     - "Bobby R. Bruce"
     - "Justyna Petke"
-  venue: "UCL Computer Science; RN/18/04"
-  pdf_url: "/assets/pdfs/publications/bruce-2018-towards.pdf"
+  research_note:
+    label: "UCL Computer Science; RN/18/04"
+    url: "/assets/pdfs/publications/bruce-2018-towards.pdf"
 
 - title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV: A Correction"
   type: "Research note"
   year: 2017
   authors:
     - "Bobby R. Bruce"
-  venue: "UCL Computer Science; RN/17/07"
-  pdf_url: "/assets/pdfs/publications/bruce-2017-deep.pdf"
+  research_note:
+    label: "UCL Computer Science; RN/17/07"
+    url: "/assets/pdfs/publications/bruce-2017-deep.pdf"
 
 - title: "Deep Parameter Optimisation on Android Smartphones for Energy minimisation - A Tale of Woe and Proof-of-Concept"
   type: "Conference paper"
