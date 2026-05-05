@@ -136,12 +136,12 @@ Links to related materials such as papers, slides, videos, and original research
 
       {% if pub.doi %}
       <dt>DOI</dt>
-      <dd><a href="https://doi.org/{{ pub.doi }}">[Link] '{{ pub.title }}' DOI -- {{ pub.doi }}</a></dd>
+      <dd><a href="https://doi.org/{{ pub.doi }}">[Link] '{{ pub.title }}' DOI - {{ pub.doi }}</a></dd>
       {% endif %}
 
       {% if pub.artifact_doi %}
       <dt>Artifact DOI</dt>
-      <dd><a href="https://doi.org/{{ pub.artifact_doi }}">[Link] '{{ pub.title }}' Artifact DOI -- {{ pub.artifact_doi }}</a></dd>
+      <dd><a href="https://doi.org/{{ pub.artifact_doi }}">[Link] '{{ pub.title }}' Artifact DOI - {{ pub.artifact_doi }}</a></dd>
       {% endif %}
 
       {% if pub.publication_url %}
